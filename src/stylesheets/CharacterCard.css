@@ -1,0 +1,19 @@
+.lastSpecies {
+  padding-top: 10px 15px;
+  margin-left: 10px;
+  height: 29px;
+  font-weight: normal;
+}
+
+.cardBox {
+  margin-left: 20px;
+  background-color: rgba(123, 236, 189, 0.918);
+  color: aliceblue;
+  font-weight: bold;
+  border: 5px solid rgb(167, 165, 163);
+  width: 200px;
+}
+
+.cardBox:hover {
+  background-color: rgb(160, 185, 155);
+}

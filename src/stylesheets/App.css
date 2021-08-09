@@ -1,0 +1,10 @@
+body {
+  background-color: black;
+}
+.title {
+  text-align: center;
+}
+.images {
+  width: 250px;
+  padding: 30px 0;
+}

@@ -1,0 +1,83 @@
+.inputTextBox {
+  text-align: center;
+}
+
+.inputText {
+  font-size: 18px;
+  color: whitesmoke;
+  border: 1px solid rgb(69, 187, 207);
+  width: 300px;
+  height: 30px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.767);
+  margin-bottom: 10px;
+}
+
+.selectSpecie {
+  font-size: 18px;
+  color: rgb(110, 107, 107);
+  border: 1px solid rgb(69, 187, 207);
+  width: 200px;
+  height: 37px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.767);
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.selectStatus {
+  font-size: 18px;
+  color: rgb(94, 89, 89);
+  border: 1px solid rgb(69, 187, 207);
+  width: 200px;
+  height: 37px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.767);
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.option {
+  color: rgb(36, 34, 34);
+  font-size: 5pz;
+}
+
+@media all and (min-width: 768px) {
+  .inputText {
+    font-size: 25px;
+    width: 350px;
+    height: 50px;
+  }
+
+  .selectSpecie {
+    width: 150px;
+    font-size: 25px;
+    height: 50px;
+  }
+
+  .selectStatus {
+    width: 150px;
+    font-size: 25px;
+    height: 50px;
+  }
+}
+
+@media all and (min-width: 1220px) {
+  .inputText {
+    font-size: 20px;
+    width: 600px;
+    height: 35px;
+  }
+
+  .selectSpecie {
+    font-size: 20px;
+    width: 150px;
+    height: 35px;
+  }
+
+  .selectStatus {
+    font-size: 20px;
+    width: 150px;
+    height: 35px;
+  }
+}

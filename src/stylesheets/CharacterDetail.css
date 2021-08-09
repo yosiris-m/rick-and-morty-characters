@@ -1,0 +1,103 @@
+.linkHome {
+  color: rgba(123, 236, 189, 0.918);
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-left: 50%;
+  font-size: 15px;
+}
+.containerCard1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  background-color: rgba(103, 233, 194, 0.918);
+  height: 66vh;
+  padding-top: 10px;
+  margin-left: 15px;
+  width: 88vw;
+  border: 8px solid rgb(167, 165, 163);
+}
+
+.containerImage {
+  margin-left: 30px;
+  padding-right: 30px;
+  width: 240px;
+  padding-top: 10px;
+}
+
+.lasNameCard {
+  font-weight: bold;
+  font-size: 22px;
+  margin-top: 10px;
+}
+
+.lasName1 {
+  font-size: 18px;
+}
+
+.description {
+  padding-right: 20px;
+}
+
+@media all and (min-width: 768px) {
+  .images {
+    width: 400px;
+    padding: 30px 0;
+    margin-top: 60px;
+  }
+
+  .containerCard1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80vw;
+    margin-left: 10%;
+    height: 370px;
+  }
+
+  .lasNameCard {
+    font-size: 30px;
+  }
+
+  .lasName1 {
+    font-size: 25px;
+  }
+
+  .linkHome {
+    margin-left: 55%;
+    font-size: 35px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .containerCard1 {
+    width: 28vw;
+    margin-left: 31%;
+  }
+
+  .containerImage {
+    height: 350px;
+    width: 300px;
+  }
+
+  .linkHome {
+    margin-bottom: 15px;
+    margin-left: 14%;
+    font-size: 18px;
+  }
+
+  .lasNameCard {
+    font-size: 25px;
+  }
+
+  .lasName1 {
+    font-size: 18px;
+  }
+}
+
+.dead {
+  width: 700px;
+}

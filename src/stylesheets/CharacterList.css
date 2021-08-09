@@ -1,0 +1,64 @@
+.CardImages {
+  display: grid;
+  grid-template-columns: 0fr;
+  margin-top: 20px;
+  text-decoration: none;
+  justify-content: center;
+}
+
+.lasName {
+  padding-top: 10px 15px;
+  margin-left: 10px;
+  height: 29px;
+  padding-top: 8px;
+  font-size: 18px;
+}
+
+.photo {
+  width: 200px;
+}
+
+.noResults {
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  padding-top: 10px;
+}
+
+@media all and (min-width: 768px) {
+  .CardImages {
+    grid-template-columns: 0fr 0fr 0fr;
+  }
+
+  .lasName {
+    font-size: 20px;
+  }
+
+  .photo {
+    width: 200px;
+  }
+
+  .noResults {
+    font-size: 30px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .CardImages {
+    display: grid;
+    grid-template-columns: 0fr 0fr 0fr 0fr 0fr;
+    margin-top: 20px;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+  }
+
+  .photo {
+    width: 200px;
+  }
+
+  .noResults {
+    font-size: 35px;
+  }
+}
